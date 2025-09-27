@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backflip"
+version = "0.1.0"
+description = "Secure SSH-based tunneling service with direct and reverse modes"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Backflip Developers"}
+]
+keywords = ["ssh", "tunnel", "autossh", "systemd", "networking"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Internet :: Proxy Servers",
+    "Topic :: System :: Networking",
+]
+dependencies = [
+    "PyYAML>=6.0",
+    "questionary>=2.0",
+]
+
+[project.scripts]
+backflip = "backflip.cli:main"
+backflip-daemon = "backflip.tunnel:main"
+backflip-install = "scripts.install:main"
+
+[tool.setuptools.packages.find]
+include = ["backflip", "backflip.*", "scripts"]
+
+[tool.setuptools]
+zip-safe = false
