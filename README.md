@@ -299,11 +299,11 @@ If you find Backflip Tunnel useful and want to support its development, consider
 
 ### Cryptocurrency Donations
 
-- **Bitcoin (BTC)**: `bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh`
-- **Ethereum (ETH)**: `0x8Fb2c4AF74e072CefC14A4E9927a1F86F1cd492c`
-- **Tron (TRX)**: `TD43B2eT7JC8upacMarcmBBGFkjy75QJHK`
-- **USDT (BEP20)**: `0x8Fb2c4AF74e072CefC14A4E9927a1F86F1cd492c`
-- **TON**: `UQAFTGSc2YRNGQwwuTyD0Q-eB7pB0BNG0yvx5jVYAJWFu-y6`
+- **Bitcoin (BTC)**: `bc1q637gahjssmv9g3903j88tn6uyy0w2pwuvsp5k0`
+- **Ethereum (ETH)**: `0x5B2eE8970E3B233F79D8c765E75f0705278098a0`
+- **Tron (TRX)**: `TSAsosG9oHMAjAr3JxPQStj32uAgAUmMp3`
+- **USDT (BEP20)**: `0x5B2eE8970E3B233F79D8c765E75f0705278098a0`
+- **TON**: `UQA-95WAUn_8pig7rsA9mqnuM5juEswKONSlu-jkbUBUhku6`
 
 ### Other Ways to Support
 
